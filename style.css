@@ -1,0 +1,98 @@
+body {
+  margin: 20px;
+}
+
+img {
+  object-fit: cover;
+  box-sizing: content-box;
+  width: 100%;
+  height: Auto;
+  border-radius: 20px;
+}
+
+div {
+  /* display: flex */
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "ADLaM Display", cursive;
+  font-size: 2 rem;
+}
+
+p {
+  font-family: "AR One Sans", sans-serif;
+}
+
+li {
+  font-family: "AR One Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Amaranth", sans-serif;
+  color: #766632;
+}
+
+.prep {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(134, 48, 142, 0.23);
+  display: grid;
+  flex-direction: column;
+}
+
+.h2Prep {
+  color: #601a1a;
+  margin: 0;
+}
+
+.isi {
+  font-weight: bold;
+  font-family: "Amaranth", sans-serif;
+  color: #766632;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+div.split {
+  margin: 20px 0 40px;
+  padding: 0;
+  width: 100%;
+  border-bottom-width: 5px;
+  outline: 1px solid #cccccc;
+  border-bottom-color: #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  font-family: "Amaranth", sans-serif;
+}
+
+tr {
+  height: 50px;
+  border-bottom: 1px solid #000;
+
+  /* Garis pemisah */
+  padding: 8px;
+
+  /* Jarak dalam sel */
+}
+
+.attribution {
+  width: fit-content;
+
+  /* Atur lebar sesuai isi */
+  margin: 0 auto;
+
+  /* Menengahkan secara horizontal */
+  text-align: center;
+  padding-top: 20px;
+
+  /* Mengatur teks agar rata tengah */
+}
